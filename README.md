@@ -1,6 +1,6 @@
 # Julia_ABC
 
-Source all `.jl` files, then run `ABC_BP_v2`.
+Source all `.jl` files and `using` all packages listed in `Julia_ABC.jl`, then run `ABC_BP_v2`.
 
 ## Quick start
 ```julia
