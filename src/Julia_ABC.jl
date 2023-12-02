@@ -1,5 +1,6 @@
 module Julia_ABC
 
+    using Distributions
     using Distributed
     using CodecBzip2
     using SpecialFunctions

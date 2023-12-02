@@ -27,9 +27,9 @@ function ABC_OneParam_test_bins(sim_vec,true_vec)
     #Freedman–Diaconis rule
     if floor((extt[2]-extt[1])/h)== Inf
         #nbins=Int(size(true_vec)[1]/10)
-        nbins=Int(floor(size(true_vec)[1]/10))
+        nbins=Int(ceil(size(true_vec)[1]^(1/2)))
     else
-        nbins=Int(floor((extt[2]-extt[1])/h))
+        nbins=Int(ceil((extt[2]-extt[1])/h))
     end
 
     #nbins=Int(size(true_vec)[1]/10)
